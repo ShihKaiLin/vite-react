@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd vite-react && npm run build",
+  "outputDirectory": "vite-react/dist",
+  "installCommand": "cd vite-react && npm install",
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}
